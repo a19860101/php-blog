@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Raleway","Noto Sans TC";
+}
+body,h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+.box {
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.box h2 {
+    background-color: #fd3472;
+    color: #fff;
+    padding: 15px;
+}
+.box  p {
+    padding: 35px 20px    ;
+}
+.box .datetime {
+    padding: 20px;
+    text-align: right;
+}
+.box-form {
+    width: 600px;
+    margin: auto;
+}
+.box-form input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.box-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
