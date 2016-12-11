@@ -23,6 +23,7 @@ h1 {
 }
 .box h2 {
     background-color: #fd3472;
+    background-image: linear-gradient(170deg,#fd3472,#d1275c);
     color: #fff;
     padding: 15px;
 }
